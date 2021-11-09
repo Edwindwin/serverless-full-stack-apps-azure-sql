@@ -28,7 +28,7 @@ module.exports = async function (context, myTimer) {
         `Vehicle ${gf.VehicleId}, route ${gf.RouteId}, ${gf.GeoFenceStatus} Geofence ${gf.GeoFence} at ${gf.TimestampUTC} UTC.`
       );
       await TriggerLogicApp(context, gf);
-    })
+    }),
   );
 };
 
