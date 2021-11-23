@@ -1,3 +1,4 @@
+/*eslint linebreak-style: ["error", "windows"]*/
 module.exports = {
   env: {
     browser: true,
@@ -11,5 +12,6 @@ module.exports = {
   rules: {
     radix: 'off',
     'func-names': 'off',
+    "linebreak-style": 0,
   },
 };
